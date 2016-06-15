@@ -1,0 +1,8 @@
+import Glibc
+
+if Process.arguments.count != 2 {
+	print("Usage: hello Name")
+} else {
+	let name = Process.arguments[1]
+	sayHello(name:name)
+}
