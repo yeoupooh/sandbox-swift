@@ -1,5 +1,3 @@
-import Glibc
-
 if Process.arguments.count != 2 {
 	print("Usage: hello Name")
 } else {
